@@ -4,14 +4,7 @@ module.exports = {
         siteUrl: `https://www.yourdomain.tld`,
     },
     plugins: [
-
+      "gatsby-plugin-image",
+      "gatsby-plugin-sharp",
     ]
 }
-
-// `gatsby-plugin-sharp`,
-//     {
-//         resolve: 'gatsby-source-prismic-graphql',
-//         options: {
-//             repositoryName: 'jessicadyer', // (REQUIRED, replace with your own)
-//         }
-//     },
